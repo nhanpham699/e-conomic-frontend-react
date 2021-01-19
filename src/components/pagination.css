@@ -1,0 +1,9 @@
+.pagination-layout{
+    margin-top: 30px;
+}
+.page-active{
+    background: #0000ff30;
+}
+.pageLink:hover{
+    text-decoration: none;
+}

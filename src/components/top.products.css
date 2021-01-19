@@ -1,0 +1,18 @@
+.top-products{
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 40px;
+    max-width: 1400px
+}
+@media (max-width: 990px){
+    .top-products{
+        margin-top: 90px;
+        padding: 0 36px;
+    }
+}
+@media (max-width: 870px){
+    .top-products{
+        margin-top: 90px;
+        padding: 0 19px;
+    }
+}  

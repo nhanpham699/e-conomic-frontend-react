@@ -1,0 +1,19 @@
+/* .fb{
+    width: 50%;
+    position: relative;
+    text-align: end;
+    top: 40px
+} */
+
+img.fb-img{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.fb-button {
+    border: none;
+    background: none;
+}
+.fb-button:focus {
+    outline: none;
+}

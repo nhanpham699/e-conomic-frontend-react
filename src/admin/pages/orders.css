@@ -1,0 +1,33 @@
+.or-status{
+    text-align: end;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.detail-order-admin{
+    width: 100%;
+}
+.order-product-item-admin{
+    display: flex;
+    width: 100%;
+}
+.order-product-left-admin{
+    display: flex;
+    width: 90%;
+}
+.order-product-right-admin{
+    width: 10%;
+}
+.order-product-description-admin > p{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 8px;
+}
+.order-product-quantity-admin > p{
+    margin-top: 35px;
+}
+.or-img-admin{
+    margin-left: 30px;
+    width: 100px;
+    height: 90px;
+}

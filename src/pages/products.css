@@ -1,0 +1,113 @@
+.products-main-content{
+    margin: auto;
+    max-width: 1400px;
+    display: flex;
+    padding: 0 50px;
+}
+div.products-left-content{
+    /* border : 1px solid black; */
+    padding: 3% ;
+    width: 20%;
+    margin-top: 72px;
+    height: 100%;
+    /* border: 2px solid gray; */
+    box-shadow: 1px 1px 5px 1px silver;
+}
+div.products-right-content{
+    padding-left: 5%;
+    width: 80%;
+}
+a.products{
+    color: black;
+    text-decoration: none;
+}
+h2.products-title{
+    text-transform: capitalize;	
+}
+p.product-type{
+    color: gray;
+}
+p.product-name{
+    font-weight: 550;
+}
+a.products:hover{
+     box-shadow: 2px 3px 10px 1px gray;
+}
+div.price-range{
+    margin: 10px 0 0 5px;
+}
+div.Heart-layout{
+    position: absolute;
+    z-index: 10;
+    right: 30px;
+    top: 10px;
+}
+img.Heart-icon:hover{
+    cursor: pointer;
+    width: 25px;
+    height: 28px;
+    transition: .5s;
+}
+img.Heart-icon{
+    width: 20px;
+    height: 23px;
+}
+@media (max-width: 1120px){
+    .products-main-content{
+        padding: 30px;
+    }
+    div.products-left-content{
+        width: 25%;
+        /* border: 1px solid black; */
+    }
+    div.products-right-content{
+        width: 75%;
+    }
+}
+@media (max-width : 870px){
+    .products-main-content{
+        display: block;
+        padding: 0 20px;
+    }
+    .brand-layout{
+        display: flex;
+    }
+    div.products-right-content,
+     div.products-left-content{
+        margin: 0;
+        padding: 20px 20px;
+        width: 100%;
+    }
+    div.products-right-content{
+        padding: 20px 0;
+    }
+    div.products-right-content{
+        margin-top: 50px;
+    }
+    div.brand-price{
+        width: 70%;
+    }
+    div.brand-color{
+        width: 30%;
+    }
+}
+@media (max-width: 675px){
+    div.brand-price{
+        width: 60%;
+    }
+    div.brand-color{
+        width: 40%;
+    }
+    .MuiSlider-colorPrimary{
+        width: 100px!important;
+    }
+}
+@media(max-width: 500px){
+    div.brand-price,
+    div.brand-color{
+        width: 50%;
+    }
+    .MuiSlider-colorPrimary{
+        width: 80px!important;
+    }
+}

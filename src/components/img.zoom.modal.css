@@ -1,0 +1,87 @@
+div.modal-zoom > .modal-content{
+   border: none;
+   border-radius: 0;
+   height: auto;
+}
+.tools > button:hover{
+    cursor: pointer;
+}
+div.modal-zoom > .modal-content > .modal-body{
+    padding: 0
+}
+.tools > button {
+    border: 1px solid black;
+    width: 40px;
+    height: 35px;
+    box-shadow: 1px 1px 7px 1px black;
+    z-index: 1100;
+    margin-top: 10px;
+}
+.tools > button:focus{
+    width: 45px;
+    height: 40px;
+    transition: .3s;
+    outline: none;
+}
+.modal-zoom{
+    margin: 0!important;
+    max-width: none!important;
+    height: auto;
+}
+.TransformComponent-module_container__3NwNd,
+.TransformComponent-module_content__TZU5O {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background: #c0c0c026;
+}
+.pd-comeback{
+    position: fixed;
+    right: 35px;
+    z-index: 1000000;
+    top: 13px;   
+}
+.return-icon:hover{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: .5s;
+}
+.return-icon{
+    width: 30px;
+    height: 30px;
+}
+.tools{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background: #c0c0c000;
+    text-align: center;
+    height: auto;
+}
+img.zoom-img{
+    position: relative;
+    top: -50px;
+}
+@media (max-width : 850px){
+    img.zoom-img{
+        width: 100%;
+    }
+    div.modal-zoom,
+    div.modal-zoom > .modal-content,
+    div.modal-zoom > .modal-content > .modal-body,
+    .TransformComponent-module_container__3NwNd,
+    .TransformComponent-module_content__TZU5O {
+        height: 100%;
+     }
+}
+@media(max-width: 630px){
+    img.zoom-img{
+        top: 40px
+    }
+}
+@media(max-width: 450px){
+    img.zoom-img{
+        top: 120px;
+    }
+}

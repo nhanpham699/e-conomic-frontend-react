@@ -1,0 +1,111 @@
+div.register-form{
+    border: 1px solid gray;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0 90px 0;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+span.register-user-err,
+span.register-pass-err,
+span.register-name-err,
+span.register-re-pass-err,
+span.register-email-err,
+span.register-phone-err{
+    display: block;
+    color: red;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 5px;
+    position: absolute;
+    margin-top: -30px;
+    font-size: 14px;
+} 
+
+h1.register-title{
+    font-size: 55px;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+    margin-left: 38px;
+}
+img.form-icon{
+    margin-top: 5px;
+    width: 35px;
+    height: 38px; 
+}
+div.input-layout{
+    display: flex;
+    justify-content: center;
+}
+div.input-text{
+    margin-left: 15px;
+}
+.MuiOutlinedInput-root {
+    width: 370px;
+    margin-bottom: 32px;
+}
+.MuiOutlinedInput-root > input{
+    border-bottom: 1px solid black;
+    border-radius: 4px;
+    height: 10px;
+}
+.MuiOutlinedInput-input:hover{
+    border-bottom: 2px solid blue
+}
+button.register-btn{
+    margin-top: 10px;
+    width: 370px;
+    margin-left: 50px;
+    height: 45px;
+    border-radius: 10px;
+    background: #000000e6;
+    color: white;
+    border: 1px solid silver;
+}
+
+@media (max-width: 990px){
+    div.register-form{
+        width: 96%;
+    }
+    .MuiOutlinedInput-root {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    button.register-btn{
+        width: 300px;
+    }
+    h1.register-title{
+        font-size: 50px;
+    }
+}
+@media (max-width: 550px){
+    img.form-icon{
+        display: none;
+    }
+    button.register-btn,
+    div.fb-gg,
+    div.username-text,
+    div.password-text,
+    h1.register-title{
+        margin-left: 0;
+    }
+    button.register-btn{
+        margin-left: 15px;
+    }
+}
+@media (max-width: 350px){
+    .MuiOutlinedInput-root,
+    button.register-btn{
+        width: 230px;
+    }
+    h1.register-title{
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+    p.register-pass-err{
+        top: 305px;
+    }
+    p.register-user-err{
+        top: 224px;
+    }
+}

@@ -1,0 +1,19 @@
+.message-icon {
+    margin-right: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.message-icon:hover {
+    cursor: pointer;
+}
+
+.message-icon-layout {
+    width: 100px;
+    float: right;
+    /* box-shadow: 1px 1px 5px 1px; */
+    position: sticky;
+    z-index: 999999999;
+    bottom: 40px;
+    right: 30px;
+}

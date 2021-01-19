@@ -1,0 +1,12 @@
+.gg{
+    margin-left: 5px;
+}
+img.gg-img{
+    width: 42px;
+    height: 41px;
+    display: block;
+}
+.gg-button {
+    border: none;
+    background: none;
+}

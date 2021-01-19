@@ -1,0 +1,11 @@
+
+div.products-carousel{
+    width: 75%;
+    margin: auto;
+}
+.card-carousel{
+    padding: 0 10px 20px 10px;
+}
+.slick-prev:before, .slick-next:before{
+    color: black !important
+}

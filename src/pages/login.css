@@ -1,0 +1,125 @@
+div.login-form{
+    border: 1px solid gray;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 0 90px 0;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+span.login-user-err,
+span.login-pass-err{
+    display: block;
+    color: red;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 5px;
+    position: absolute;
+    margin-top: -30px;
+    font-size: 14px;
+} 
+
+h1.login-title{
+    font-size: 55px;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+    margin-left: 38px;
+}
+img.form-icon{
+    margin-top: 5px;
+    width: 35px;
+    height: 38px; 
+}
+div.username-layout,
+div.password-layout{
+    display: flex;
+    justify-content: center;
+}
+div.username-text,
+div.password-text{
+    margin-left: 15px;
+}
+.MuiOutlinedInput-root {
+    width: 370px;
+    margin-bottom: 32px;
+}
+.MuiOutlinedInput-root > input{
+    border-bottom: 1px solid black;
+    border-radius: 4px;
+    height: 10px;
+}
+.MuiOutlinedInput-input:hover{
+    border-bottom: 2px solid blue
+}
+button.login-btn{
+    margin-top: 10px;
+    width: 370px;
+    margin-left: 50px;
+    height: 45px;
+    border-radius: 10px;
+    background: #000000e6;
+    color: white;
+    border: 1px solid silver;
+}
+button.login-btn:hover{
+    color: gray;
+    transition: .5;
+}
+div.fb-gg{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 55px;
+}
+div.login-bottom{
+    margin-top: 15px;
+    margin-left: 60px;
+}
+div.login-bottom > a {
+    color: black;
+    font-weight: 500;
+}
+
+@media (max-width: 990px){
+    div.login-form{
+        width: 96%;
+    }
+    .MuiOutlinedInput-root {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    button.login-btn{
+        width: 300px;
+    }
+    h1.login-title{
+        font-size: 50px;
+    }
+}
+@media (max-width: 550px){
+    img.form-icon{
+        display: none;
+    }
+    button.login-btn,
+    div.fb-gg,
+    div.login-bottom,
+    div.username-text,
+    div.password-text,
+    h1.login-title{
+        margin-left: 0;
+    }
+}
+@media (max-width: 350px){
+    .MuiOutlinedInput-root,
+    button.login-btn{
+        width: 230px;
+    }
+    h1.login-title{
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+    p.login-pass-err{
+        top: 305px;
+    }
+    p.login-user-err{
+        top: 224px;
+    }
+}
